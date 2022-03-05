@@ -1,0 +1,8 @@
+site_name: "grpc"
+site_description: "desc.backstage"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
