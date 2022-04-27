@@ -7,7 +7,7 @@ metadata:
     github.com/project-slug: t1ynx/https://github.com/t1ynx
     backstage.io/techdocs-ref: dir:.
   links:
-    - url: https://admin.example-org.com
+    - url: http://localhost:8088/secure/RapidBoard.jspa?rapidView=2&projectKey=SOFT
       title: Jira Project
       icon: dashboard
   tags:
