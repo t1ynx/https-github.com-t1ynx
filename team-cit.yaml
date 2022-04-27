@@ -1,0 +1,35 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-cit
+  description: Team Cit
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: team-cit@example.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: backstage
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: test.testovich
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: test.testovich@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  memberOf: [team-cit]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: vtoroy.user
+spec:
+  profile:
+    displayName: vtoroy.user
+    email: vtoroy.user@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
+  memberOf: [team-cit]
