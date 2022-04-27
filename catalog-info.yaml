@@ -6,6 +6,10 @@ metadata:
   annotations:
     github.com/project-slug: t1ynx/https://github.com/t1ynx
     backstage.io/techdocs-ref: dir:.
+  tags:
+    - tag1
+    - tag2
+    - tag3
 spec:
   type: service
   lifecycle: experimental
