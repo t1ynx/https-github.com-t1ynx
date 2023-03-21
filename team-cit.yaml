@@ -3,6 +3,8 @@ kind: Group
 metadata:
   name: team-cit
   description: Team Cit
+  annotations:
+    argocd/app-name: test702
 spec:
   type: team
   profile:
