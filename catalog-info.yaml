@@ -4,7 +4,7 @@ metadata:
   name: "grpc1"
   description: "desc.backstage"
   annotations:
-    argocd/app-name: test703
+    argocd/app-name: test703-stand703
     github.com/project-slug: t1ynx/https://github.com/t1ynx
     backstage.io/techdocs-ref: dir:.
   links:
